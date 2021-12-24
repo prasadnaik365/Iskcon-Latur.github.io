@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+        </style>
+        <title>Iskcon Latur | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                   
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Iskcon Latur</h1>
+            
+        </header>
+        <section class="container content-section">
+            <!-- <p class="band-name">New Year Hare Krishna Festival Welcome - 2022</p> -->
+            <h2 class="section-header">New Year Hare Krishna Festival Welcome - 2022</h2>
+            
+            <form action="" method="post" name="google-sheet">
+            
+                <label for="fname" >Name</label>
+                <input type="text" name="Customer-Name" id="fname"  placeholder="Your name.." required>
+
+                <label for="lname">WhatsApp NUmber</label>
+                <input type="text" name="WhatsApp-Number" id="lname"  placeholder="Enter Your WhatsApp-Number .." required>
+                <h3>Note: Enter number of items  in Input BOX.</h3>
+            <div class="shop-items">
+                <!-- Product Data -->
+        
+                        <div class="shop-item">
+                            <span class="shop-item-title">American-Veg-Pizza</span>
+                            <img class="shop-item-image" src="Images/american.jpg">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹150.00</span>
+                                <input type="number" name="American-Veg-Pizza" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Itallian-Panner-Pizza</span>
+                            <img class="shop-item-image" src="Images/itallian.png">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹180.00</span>
+                                <input type="number" name="Itallian-Panner-Pizza" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                <button class="btn btn-primary shop-item-button"type="button">ADD</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Veg-Combo</span>
+                            <p>(2 AmericanVegPizza + 2 Aasav soft drink.)</p>
+                            <img class="shop-item-image" src="Images/Veg Combo.jpg" width="100%">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹325.00</span>
+                            
+                                    <input type="number" name="Veg-Combo" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+                                    <!-- <button class="btn btn-danger" type="button">REMOVE</button> -->
+                                
+                               
+                                <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Panner-Combo</span>
+                            <p>2 ItallianPannerPizza + 2 Aasav soft drink.<br> 2 AmericanVegPizza + 2 Aasav soft drink</p>
+                            <img class="shop-item-image" src="Images/paneercombo.jpg">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">₹385.00</span>
+                                <input type="number" name="Panner-Combo" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                            </div>
+                        </div>
+                    
+                            <div class="shop-item">
+                                <span class="shop-item-title">Pavbhaji</span>
+                                <img class="shop-item-image" src="Images/jain pav bhaji.jfif">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">₹45.00</span>
+                                    <input type="number" name="Pavbhaji" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                    <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">Bhel</span>
+                                <img class="shop-item-image" src="Images/jain bhel.jfif">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">₹35.00</span>
+                                    <input type="number" name="Bhel" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                    <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">Panipuri</span>
+                                <img class="shop-item-image" src="Images/jainpani puri.jfif">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">₹20.00</span>
+                                    <input type="number" name="Panipuri" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                    <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">Aasav</span>
+                                <img class="shop-item-image" src="Images/assav.jpg">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">₹15.00</span>
+                                    <input type="number" name="Aasav" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                    <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">Sprite</span>
+                                <img class="shop-item-image" src="Images/Sprite.jpg">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">₹20.00</span>
+                                    <input type="number" name="Sprite" class="quantityItem" style="  margin-right: 25px; color:#333;text-align: center;font-size: 1.2em; padding: 0; height: 34px; width: 50px;  border-radius: 5px; border: 1px solid #56CCF2; background-color: #eee;" value="0">
+
+                                    <button class="btn btn-primary shop-item-button" type="button">ADD</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                
+                                <p><strong>
+                                    Pay by PayTM or PhonePay or Google Pay on 9673626063, and Enter Your UPI Transaction Id. *</strong></p>
+                                <img class="shop-item-image" src="Images/SachinPhonePay.jpg" >
+                                
+                               <br> <label for="fname" ><strong>UPI Transaction Id</strong> </label>
+                                <input type="text" name="UPI-ID" id="fname" placeholder=" Enter UPI Id" required>
+                                <br>
+                                <img src="Images/id.png" alt="" height="300">
+                                <!-- <img class="shop-item-image" src="Images/id.png"> -->
+                                <div class="shop-item-details">
+                                    <!-- <span class="shop-item-price">₹6.99</span> -->
+                                    <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
+                                </div>
+                            </div>
+
+
+                    
+                
+            </div>
+            <!-- cart order -->
+            <h2 class="section-header">Your Order</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">₹0</span>
+            </div>
+        <div>
+            <button class="cart-total-price"></button>
+            <button class="btn btn-primary btn-purchase" type="submit">Place Order</button>
+        </div>
+            
+        </form>
+        </section>
+        <!--Google sheet  -->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzmfA5wezcgw3UsyPBM3h-8ts5iIIgWJ_L_aYilMHKx3ypxkkYSeow0mOPplaU00gSU/exec'
+            const form = document.forms['google-sheet']
+      
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>console.log('Success!',response))
+                .catch(error => console.error('Error!', error.message))
+            })
+            
+      
+          </script> 
+       
+        
+    </body>
+</html>

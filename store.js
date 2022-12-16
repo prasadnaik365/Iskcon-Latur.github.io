@@ -24,6 +24,7 @@ function ready() {
     }
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', resetForm)
 }
 
 function purchaseClicked() {
@@ -44,15 +45,21 @@ function purchaseClicked() {
         }
         updateCartTotal()
     }
-   const nameInput =  document.getElementById('name');
+   
+    
+ 
+}
+
+function resetForm(){
+    const nameInput =  document.getElementById('name');
    const numberInput =   document.getElementById('number');
     const upiInput =  document.getElementById('upi');
    
     nameInput.value = '';
     numberInput.value = '';
     upiInput.value = '';
-    
- 
+
+
 }
 
 

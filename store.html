@@ -11,6 +11,14 @@
             border-radius: 4px;
             box-sizing: border-box;
             }
+            .spelling-error {
+                    text-decoration-line: underline;
+                    text-decoration-style: wavy;
+                    text-decoration-color: red;
+            }
+            .red{
+                color:red;
+            }
         </style>
         <title>Iskcon Latur | Store</title>
         <meta name="description" content="This is the description">
@@ -103,12 +111,12 @@
                 
                                 
                                 <p><strong>
-                                     PhonePay on " 7218101019 " or Scan below QR Code</strong></p>
+                                     PhonePay on " <u class="spelling-error">7218101019</u> " or Scan below QR Code</strong></p>
                     <br><br>
                                 <img  src="Images/SachinPhonePay.jpg"  width="400" height="800">
                                 
                                <br><br> 
-                 <label  ><strong>Enter Transaction Id. *Required to Send payment receipt on this WhatsApp Number "7218101019 (Namdev Janwalkar)"   </strong> </label> 
+                <label  ><strong>Enter Transaction Id. <i class="red">*</i> Required to Send payment receipt on this <u class="spelling-error">WhatsApp Number "7218101019 (Namdev Janwalkar)"</u>   </strong> </label> 
                                    <input type="text"  name="UPI_Id"  required>
                 
                      <img class="shop-item-image" src="Images/tsId.jpg">           

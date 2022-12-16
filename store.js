@@ -47,7 +47,7 @@ function purchaseClicked() {
     
  
 }
-document.getElementById("myForm").reset();
+
 
 function removeCartItem(event) {
     var buttonClicked = event.target

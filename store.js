@@ -124,10 +124,3 @@ function updateCartTotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = '₹' + total
 }
-const nameInput =  document.getElementById('name');
-   const numberInput =   document.getElementById('number');
-    const upiInput =  document.getElementById('upi');
-   
-    nameInput.value = '';
-    numberInput.value = '';
-    upiInput.value = '';

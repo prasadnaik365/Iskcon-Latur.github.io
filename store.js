@@ -44,9 +44,10 @@ function purchaseClicked() {
         }
         updateCartTotal()
     }
-    name = "";
-    number = "";
-    upiId = "";
+    document.getElementById("name").value = "";
+     document.getElementById("number").value = "";
+     document.getElementById("upi").value = "";
+   
     
  
 }

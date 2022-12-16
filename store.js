@@ -44,6 +44,9 @@ function purchaseClicked() {
         }
         updateCartTotal()
     }
+    name = "";
+    number = "";
+    upiId = "";
     
  
 }

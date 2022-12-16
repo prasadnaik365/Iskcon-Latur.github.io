@@ -44,10 +44,13 @@ function purchaseClicked() {
         }
         updateCartTotal()
     }
-    document.getElementById("name").value = '';
-     document.getElementById("number").value = '';
-     document.getElementById("upi").value = '';
+   const nameInput =  document.getElementById('name');
+   const numberInput =   document.getElementById('number');
+    const upiInput =  document.getElementById('upi');
    
+    nameInput.value = '';
+    numberInput.value = '';
+    upiInput.value = '';
     
  
 }

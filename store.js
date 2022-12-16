@@ -37,6 +37,7 @@ function purchaseClicked() {
     }
     else{
         alert("Your Order Is placed.")
+        document.getElementById("myForm").reset();
         var cartItems = document.getElementsByClassName('cart-items')[0]
         while (cartItems.hasChildNodes()) {
             cartItems.removeChild(cartItems.firstChild)

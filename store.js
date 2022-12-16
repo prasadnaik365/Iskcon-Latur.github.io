@@ -30,10 +30,10 @@ function purchaseClicked() {
    // alert('Your Order Is placed.')
    var name = document.forms["google-sheet"]["Customer-Name"].value;
    var number = document.forms["google-sheet"]["WhatsApp-Number"].value;
-   var upiId = document.forms["google-sheet"]["UPI-ID"].value;
+   var upiId = document.forms["google-sheet"]["paymentScreeshot"].value;
     if (name == "" || number == "" || upiId == "")
     {
-        alert("Please enter Name , WhatsApp Number and UPI ID")
+        alert("Please enter Name , WhatsApp Number and Payment receipt screenshot")
     }
     else{
         alert("Your Order Is placed.")

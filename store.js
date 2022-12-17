@@ -75,9 +75,7 @@ function addToCartClicked(event) {
     var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
     var quatity = shopItem.getElementsByClassName('quantityItem')[0]
     var quatityNumber = quatity.value
-    shopItem.getElementsByClassName('shop-item-title')[0].style.color = "white"
-    shopItem.getElementsByClassName('shop-item-price')[0].style.color = "white"
-     shopItem.getElementsByClassName('quantityItem')[0].style.color = "white"
+    
     addItemToCart(title, price, imageSrc, quatityNumber)
     updateCartTotal()
 }
@@ -96,11 +94,11 @@ function addItemToCart(title, price, imageSrc,quatityNumber) {
     var cartRowContents = `
         <div class="cart-item cart-column">
             <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
-            <span class="cart-item-title">${title}</span>
+            <span class="cart-item-title" style="color:white;">${title}</span>
         </div>
-        <span class="cart-price cart-column">${price}</span>
+        <span class="cart-price cart-column" style="color:white;">${price}</span>
          <div class="cart-quantity cart-column">
-            <span class="cart-quantity-input">${quatityNumber}</span>
+            <span class="cart-quantity-input" style="color:white;">${quatityNumber}</span>
             <button class="btn btn-danger" type="button">REMOVE</button>
          </div>
         `

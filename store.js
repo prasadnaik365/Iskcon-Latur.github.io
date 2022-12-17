@@ -75,6 +75,9 @@ function addToCartClicked(event) {
     var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
     var quatity = shopItem.getElementsByClassName('quantityItem')[0]
     var quatityNumber = quatity.value
+    shopItem.getElementsByClassName('shop-item-title')[0].style.color = "white"
+    shopItem.getElementsByClassName('shop-item-price')[0].style.color = "white"
+     shopItem.getElementsByClassName('quantityItem')[0].style.color = "white"
     addItemToCart(title, price, imageSrc, quatityNumber)
     updateCartTotal()
 }

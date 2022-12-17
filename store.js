@@ -94,11 +94,11 @@ function addItemToCart(title, price, imageSrc,quatityNumber) {
     var cartRowContents = `
         <div class="cart-item cart-column">
             <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
-            <span class="cart-item-title" style="color:white;">${title}</span>
+            <span class="cart-item-title" >${title}</span>
         </div>
-        <span class="cart-price cart-column" style="color:white;">${price}</span>
+        <span class="cart-price cart-column" >${price}</span>
          <div class="cart-quantity cart-column">
-            <span class="cart-quantity-input" style="color:white;">${quatityNumber}</span>
+            <span class="cart-quantity-input" >${quatityNumber}</span>
             <button class="btn btn-danger" type="button">REMOVE</button>
          </div>
         `

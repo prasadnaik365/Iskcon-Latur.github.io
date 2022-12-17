@@ -4,6 +4,7 @@
         <style>
             body{
                  background-color: #242B2E;
+                font-family: "Trirong", serif;
             }
             input[type=text], select {
             width: 100%;
@@ -26,10 +27,18 @@
                  width: 100%;
                  height: auto;
             }
+            .cart-item{
+                color:white;
+            
+            }
+            .cart-price{
+                color:white;
+            }
             
         </style>
         <title>Iskcon Latur | Store</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" type="image/x-icon" href="images/icon.jpg">
         <script src="store.js" async></script>
@@ -96,7 +105,7 @@
                 
             </div>
             <!-- cart order -->
-            <h2 class="section-header">Your Order</h2>
+            <h2 class="section-header" style="color:white;">Your Order</h2>
             <div class="cart-row">
                 <span class="cart-item cart-header cart-column" style="color:white;">ITEM</span>
                 <span class="cart-price cart-header cart-column" style="color:white;">PRICE</span>
@@ -106,17 +115,17 @@
             </div>
             <div class="cart-total">
                 <strong class="cart-total-title" style="color:white;">Total</strong>
-                <span class="cart-total-price" style="color:white;">₹0</span>
+                <span class="cart-total-price" style="color:white; font-size: 25px;">₹0</span>
             </div>
                 
                                 
-                                <p style="color:white;"><strong>
+                                <p ><strong style="color:white;">
                                      PhonePay,GPay,BHIM Pay on " <u class="spelling-error">7218101019</u> " or Scan below QR Code</strong></p>
                     <br><br>
                                 <img  src="Images/SachinPhonePay.jpg" style="border-radius: 15px;"  width="400" height="650">
                                 
                                <br><br> 
-                <label  style="color:white;"><strong>Enter Transaction Id. <i class="red">*</i> Required to Send payment receipt on this <u class="spelling-error">WhatsApp Number "7218101019 (Namdev Janwalkar)"</u>   </strong> </label> 
+                <label  ><strong style="color:white;">Enter Transaction Id. <i class="red">*</i> Required to Send payment receipt on this <u class="spelling-error">WhatsApp Number "7218101019 (Namdev Janwalkar)"</u>   </strong> </label> 
                                    <input id = "upi" type="text"  name="UPI_Id"  required>
                 
                      <img class="shop-item-image" style="border-radius: 15px;"  src="Images/tsId.jpg">           

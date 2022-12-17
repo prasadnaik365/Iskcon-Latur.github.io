@@ -170,6 +170,7 @@ html, body {
     border: none;
     border-radius: .3em;
     font-weight: bold;
+    display: inline-block;
 }
 
 .btn-primary:hover {

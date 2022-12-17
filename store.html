@@ -20,7 +20,7 @@
                     text-decoration-style: wavy;
                     text-decoration-color: red;
             }
-            span{
+            .cart-items{
                 color:white; 
             }
             .red{
@@ -30,12 +30,16 @@
                  width: 100%;
                  height: auto;
             }
-            .cart-item{
-                color:white;
-            
+            .heart {
+                font-size: 25px;
+                
+                animation: beat .25s infinite alternate;
+                transform-origin: center;
             }
-            .cart-price{
-                color:white;
+
+            /* Heart beat animation */
+            @keyframes beat{
+                to { transform: scale(1.4); }
             }
             
         </style>
@@ -56,7 +60,7 @@
             
             <form action="" method="post" name="google-sheet" id="myForm">
             
-             <h3 style="color:white;text-align:center;">Note: Enter number of items  in Input BOX.</h3>
+             <h3 style="color:white;text-align:center;" class="heart">Note: Enter number of items  in Input BOX.</h3>
             <div class="shop-items">
                 <!-- Product Data -->
         
